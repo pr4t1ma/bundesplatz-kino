@@ -2,6 +2,7 @@
   "name": "bundesplatz-kino",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://pr4t1ma.github.io/bundesplatz-kino/",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",

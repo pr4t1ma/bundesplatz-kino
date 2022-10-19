@@ -13,10 +13,10 @@ function App() {
       <Header />
       <Banner />
       <div className="container mx-auto grid  grid-cols-12 gap-20">
-        <div className="col-span-5">
+        <div className="col-span-4">
           <Leftmoviebox />
         </div>
-        <div className="col-span-7">
+        <div className="col-span-8">
           <MainContent />
         </div>
       </div>

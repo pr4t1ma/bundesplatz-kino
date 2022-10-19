@@ -2,8 +2,8 @@ import { Menu } from "./Menu";
 import { Logo } from "./Logo";
 
 import { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faMultiply } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faBars, faMultiply } from "@fortawesome/free-solid-svg-icons";
 
 export const Header = () => {
   const menuItems = [
@@ -14,7 +14,7 @@ export const Header = () => {
     { label: "Newsletter", href: "/" },
     { label: "Gastebuch", href: "/" },
   ];
-  const [isMenuOpen, setMenuOpen] = useState(true);
+  const [isMenuOpen] = useState(true);
   return (
     <header className="App-header container mx-auto grid  grid-cols-12  my-10">
       <div className="col-span-2">

@@ -35,6 +35,7 @@ h1 {
 
 p {
   line-height: 1.5rem;
+  @apply max-w-[700px];
 }
 
 .button--primary {

@@ -1,4 +1,4 @@
-import { HeroBanner } from './HeroBanner';
+import { HeroBanner } from "./HeroBanner";
 
 export const Banner = () => {
   return (

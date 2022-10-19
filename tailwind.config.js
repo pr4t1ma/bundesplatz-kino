@@ -13,7 +13,7 @@ module.exports = {
       yellow: colors.yellow,
       brand: {
         primary: '#FF2323',
-        Medgray: '#ECEAEA',
+        medgray: '#ECEAEA',
         lightgray: '#EEEEEE',
         gray: '#D9D9D9',
       },

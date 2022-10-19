@@ -1,9 +1,9 @@
-import { Minipromo } from './Minipromo';
+import { Minipromo } from "./Minipromo";
 
 export const Leftmoviebox = () => {
   return (
-    <div className="container mx-auto my-10 border-gray border-2">
-      <h1 className="font-serif text-2xl my-3">Heute</h1>
+    <div className="col-span-2 mx-auto my-10 ">
+      <h2>Heute</h2>
 
       <Minipromo
         img="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvGZwqVu-fSuN6JwAP32yr0k87Ei5mts2wDp644ACnszEHfH2UXWWYVEFPd5_92D_zPOU&usqp=CAU"

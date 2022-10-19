@@ -1,55 +1,28 @@
-import './App.css';
-import { Menu } from './Components/Menu';
-import { Logo } from './Components/Logo';
-import './index.css';
-import { Button } from './Components/Button';
-import { Banner } from './Components/Banner';
-import { Leftmoviebox } from './Components/Leftmoviebox';
-import { MainContent } from './Components/MainContent';
-import { TopMovie } from './Components/TopMovie';
-import { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faMultiply } from '@fortawesome/free-solid-svg-icons';
-import { Footer } from './Components/Footer';
+import "./App.css";
+import "./index.css";
+import { Header } from "./Components/Header";
+import { Banner } from "./Components/Banner";
+import { Leftmoviebox } from "./Components/Leftmoviebox";
+import { MainContent } from "./Components/MainContent";
+import { TopMovie } from "./Components/TopMovie";
+import { Footer } from "./Components/Footer";
 
 function App() {
-  const menuItems = [
-    { label: 'Actuelles', href: '/' },
-    { label: 'Spielen und Reservierungome', href: '/' },
-    { label: 'Vorschau', href: '/' },
-    { label: 'GutScheine', href: '/' },
-    { label: 'Newsletter', href: '/' },
-    { label: 'Gastebuch', href: '/' },
-  ];
-  const [isMenuOpen, setMenuOpen] = useState(false);
   return (
     <div className="App bg-white ">
-      <header className="App-header container mx-auto grid  grid-cols-12  my-10">
-        <Logo />
-        {!isMenuOpen && (
-          <button onClick={() => setMenuOpen(true)}>
-            <FontAwesomeIcon icon={faBars} />
-          </button>
-        )}
-
-        {isMenuOpen && (
-          <button onClick={() => setMenuOpen(false)}>
-            <FontAwesomeIcon icon={faMultiply} />
-          </button>
-        )}
-
-        {isMenuOpen && <Menu menuItems={menuItems} />}
-
-        <Button />
-      </header>
+      <Header />
       <Banner />
-      <div className="container mx-auto flex gap-10">
-        <Leftmoviebox />
-        <MainContent />
+      <div className="container mx-auto grid  grid-cols-12 gap-20">
+        <div className="col-span-5">
+          <Leftmoviebox />
+        </div>
+        <div className="col-span-7">
+          <MainContent />
+        </div>
       </div>
 
       <div className="container mx-auto ">
-        <h1>Top movies</h1>
+        <h2>Top movies</h2>
         <div className="gap-6 container mx-auto flex flex-nowrap">
           <TopMovie
             img="https://lumiere-a.akamaihd.net/v1/images/p_brave_20488_9e833e2b.jpeg"

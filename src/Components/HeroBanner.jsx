@@ -15,7 +15,7 @@ export const HeroBanner = () => {
         </div>
         <p className="text-white my-2">Produced by Disney in 20013</p>
 
-        <button className="border-yellow-500 border-2 inline-flex items-center py-2 px-4 text-sm font-medium rounded-lg  text-white hover:font-bold hover:border-brand-Medgray">
+        <button className="border-yellow-500 border-2 inline-flex items-center py-2 px-4 text-sm font-medium rounded-lg  text-white hover:border-brand-Medgray">
           <FontAwesomeIcon className="mr-2" icon={faPlay} />
           Trailer
         </button>

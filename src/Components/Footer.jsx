@@ -1,10 +1,10 @@
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import partnerLogo from '../images/partnerLogo.png'
 export const Footer = () => {
   return (
-    <div className="container mx-auto bg-brand-mdgray border-y p-3 py-10 my-10 flex gap-10">
-      <div className="footerMenu">
+    <div className="container mx-auto bg-brand-mdgray border-y p-3 py-10 my-10 grid grid-cols-12">
+      <div className="footerMenu col-span-3">
         <ul>
           <li>Bundesplatz 14 10715 Berlin</li>
           <li>U + S-Bhf Bundesplatz (U9 - S 41,42,46) Bus 248, N9</li>
@@ -14,7 +14,7 @@ export const Footer = () => {
           <h3>OEFFNUNGSZEITEN</h3>
         </ul>
       </div>
-      <div>
+      <div className='col-span-2'>
         <ul>
           <li>Actuelles</li>
           <li>Spielen und Reservierung</li>
@@ -23,7 +23,7 @@ export const Footer = () => {
           <li>Newsletter</li>
         </ul>
       </div>
-      <div>
+      <div className='col-span-2'>
         <ul>
           <li>Eintrittspreise</li>
           <li>-Erwachsene 9,-- €</li>
@@ -32,7 +32,7 @@ export const Footer = () => {
           <li>Movies</li>
         </ul>
       </div>
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-5 col-span-3">
         <label htmlFor="Subscription">Subscription</label>
         <div>
           <input
@@ -44,6 +44,9 @@ export const Footer = () => {
             <FontAwesomeIcon icon={faSearch} />
           </button>
         </div>
+      </div>
+      <div className='col-span-2'>
+        <img src={partnerLogo} alt="" />
       </div>
     </div>
   );

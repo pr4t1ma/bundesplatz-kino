@@ -6,6 +6,9 @@ import { Leftmoviebox } from "./Components/Leftmoviebox";
 import { MainContent } from "./Components/MainContent";
 import { TopMovie } from "./Components/TopMovie";
 import { Footer } from "./Components/Footer";
+import { TicketCalc } from "./Components/TicketCalc";
+import { Seat } from "./Components/AvaliableSeat";
+import { MovieCard } from "./Components/MovieCardsRow";
 
 function App() {
   return (
@@ -49,7 +52,18 @@ function App() {
         WWE-Tagen ein großer Fan von Dwayne Johnson ist…"
           />
         </div>
+        <button className="button--primary my-6">more</button>
       </div>
+      <div className=" container mx-auto my-10 grid gap-5 grid-cols-12">
+        <div className="col-span-4">
+          <TicketCalc />
+        </div>
+        <div className="col-span-8">
+          <Seat />
+        </div>
+      </div>
+      <MovieCard />
+
       <Footer />
     </div>
   );

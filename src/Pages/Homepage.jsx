@@ -48,6 +48,7 @@ export const HomePage = () => {
         </div>
         <button className="button--primary my-6">more</button>
       </div>
+    
     </div>
   );
 };

@@ -1,7 +1,7 @@
 export const TicketCalc = () => {
   return (
     <div className=" my-2">
-      <h1>Your selected seat</h1>
+      <h2>Your selected seat</h2>
       <span className="py-5">3 seat</span>
       <table className="Py-3">
         <tr className="flex gap-5 justify-center">

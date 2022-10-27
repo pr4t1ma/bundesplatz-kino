@@ -5,12 +5,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export const Minipromo = ({ img, time }) => {
+export const Minipromo = ({ img, time, title }) => {
   return (
     <div className="flex gap-7 my-5 border border-lightgray p-3">
       <img className="w-40 h-40 object-cover" src={img} alt="" />
       <div className="movie-title">
-        <h2 className="font-serif text-xl">Brave</h2>
+        <h2 className="font-serif text-xl">{title}</h2>
         <div className="flex gap-3  mt-3">
           <div className="icon">
             <FontAwesomeIcon icon={faLocationArrow} />

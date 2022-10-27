@@ -1,7 +1,9 @@
 import { Menu } from "./Menu";
 import { Logo } from "./Logo";
 
+
 import { useState } from "react";
+import { Link } from "react-router-dom";
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import { faBars, faMultiply } from "@fortawesome/free-solid-svg-icons";
 
@@ -18,7 +20,10 @@ export const Header = () => {
   return (
     <header className="App-header container mx-auto grid  grid-cols-12  my-10">
       <div className="col-span-2">
-        <Logo />
+       <Link to="/">
+           <Logo />
+       </Link>
+     
       </div>
 
       {/* {!isMenuOpen && (

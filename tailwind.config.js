@@ -21,7 +21,7 @@ module.exports = {
       booking: {
         reserved: "#e30",
         available: "#444",
-        booked: "#0cc",
+        booked: "#0c0",
         selected: "#dc0",
       },
     },

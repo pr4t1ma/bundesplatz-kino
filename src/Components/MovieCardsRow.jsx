@@ -1,7 +1,13 @@
-export const MovieCard = () => {
+export const MovieCard = ({ img, movietitle, text }) => {
   return (
     <div>
-      <h1>Hello</h1>
+      <div className="col">
+        <img src={img} alt="" />
+      </div>
+      <div className="col">
+        <h1>{movietitle}</h1>
+        <p>{text}</p>
+      </div>
     </div>
   );
 };

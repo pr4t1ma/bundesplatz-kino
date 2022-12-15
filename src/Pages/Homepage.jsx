@@ -8,7 +8,7 @@ export const HomePage = () => {
     <div className="container mx-auto  ">
       <Banner
         img={
-          "https://images.newindianexpress.com/uploads/user/imagelibrary/2020/5/6/w1200X800/Cine_Hall.jpg"
+          "https://www.vibe.com/wp-content/uploads/2022/10/BlackPanther-WakandaForever_Payoff_1-Sht_v10_lg-e1665517283161.jpg?w=1024"
         }
       />
       <div className="container mx-auto grid  grid-cols-12 gap-20">

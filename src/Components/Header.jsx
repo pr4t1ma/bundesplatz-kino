@@ -15,8 +15,8 @@ export const Header = () => {
   ];
   const [isMenuOpen] = useState(true);
   return (
-    <header className="App-header container mx-auto grid  grid-cols-12  my-10">
-      <div className="col-span-2">
+    <header className="App-header container mx-auto grid items-center grid-cols-12  my-10">
+      <div className="col-span-5">
         <Link to="/">
           <Logo />
         </Link>
@@ -32,7 +32,7 @@ export const Header = () => {
           <FontAwesomeIcon icon={faMultiply} />
         </button>
       )} */}
-      <div className="col-span-8">
+      <div className="col-span-5 justify-center">
         {isMenuOpen && <Menu menuItems={menuItems} />}
       </div>
 

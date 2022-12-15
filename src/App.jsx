@@ -7,6 +7,7 @@ import { Footer } from "./Components/Footer";
 
 import { HomePage } from "./Pages/Homepage";
 import { BookingPage } from "./Pages/BookingPage";
+import { TodaysShow } from "./Pages/TodaysShow";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/booking" element={<BookingPage />}></Route>
+          <Route path="/todaysshow" element={<TodaysShow />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

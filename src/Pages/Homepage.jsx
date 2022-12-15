@@ -1,10 +1,11 @@
 import { Banner } from "../Components/Banner";
 import { Leftmoviebox } from "../Components/Leftmoviebox";
 import { MainContent } from "../Components/MainContent";
+import { TestTab } from "../Components/TestTab";
 import { TopMovie } from "../Components/TopMovie";
 export const HomePage = () => {
   return (
-    <div>
+    <div className="container mx-auto  ">
       <Banner
         img={
           "https://images.newindianexpress.com/uploads/user/imagelibrary/2020/5/6/w1200X800/Cine_Hall.jpg"
@@ -48,7 +49,7 @@ export const HomePage = () => {
         </div>
         <button className="button--primary my-6">more</button>
       </div>
-    
+      <TestTab />
     </div>
   );
 };

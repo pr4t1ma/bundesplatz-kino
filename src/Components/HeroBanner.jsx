@@ -1,15 +1,15 @@
-import { faPlay } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faPlay } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const HeroBanner = () => {
   return (
     <div className="p-10 relative z-10 grid grid-cols-12 grid-rows-3 gap-5">
-      <img
+      {/* <img
         className="w-fit col-span-4 row-span-3"
         src="https://lumiere-a.akamaihd.net/v1/images/p_brave_20488_9e833e2b.jpeg"
         alt=""
-      />
-      <div className="wrapper col-span-6 row-span-2 bg-brand-primary/40 p-10 text-White">
+      /> */}
+      <div className="wrapper col-span-6 row-span-2 bg-black/25 p-10 text-White">
         <div className="banner-title text-white text-4xl font-serif">
           Brave Girl
         </div>

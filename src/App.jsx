@@ -8,6 +8,7 @@ import { Footer } from "./Components/Footer";
 import { HomePage } from "./Pages/Homepage";
 import { BookingPage } from "./Pages/BookingPage";
 import { TodaysShow } from "./Pages/TodaysShow";
+import { EventPage } from "./Pages/EventPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/booking" element={<BookingPage />}></Route>
           <Route path="/todaysshow" element={<TodaysShow />}></Route>
+          <Route path="/event" element={<EventPage />}></Route>
         </Routes>
         <Footer />
       </BrowserRouter>

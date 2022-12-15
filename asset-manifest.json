@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/bundesplatz-kino/static/css/main.4fba92b8.css",
-    "main.js": "/bundesplatz-kino/static/js/main.36a2c7d1.js",
+    "main.css": "/bundesplatz-kino/static/css/main.ed893ecf.css",
+    "main.js": "/bundesplatz-kino/static/js/main.8582723f.js",
     "static/js/787.35e023ca.chunk.js": "/bundesplatz-kino/static/js/787.35e023ca.chunk.js",
     "static/media/partnerLogo.png": "/bundesplatz-kino/static/media/partnerLogo.63cfde9335c38a73fbe6.png",
     "index.html": "/bundesplatz-kino/index.html",
-    "main.4fba92b8.css.map": "/bundesplatz-kino/static/css/main.4fba92b8.css.map",
-    "main.36a2c7d1.js.map": "/bundesplatz-kino/static/js/main.36a2c7d1.js.map",
+    "main.ed893ecf.css.map": "/bundesplatz-kino/static/css/main.ed893ecf.css.map",
+    "main.8582723f.js.map": "/bundesplatz-kino/static/js/main.8582723f.js.map",
     "787.35e023ca.chunk.js.map": "/bundesplatz-kino/static/js/787.35e023ca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fba92b8.css",
-    "static/js/main.36a2c7d1.js"
+    "static/css/main.ed893ecf.css",
+    "static/js/main.8582723f.js"
   ]
 }

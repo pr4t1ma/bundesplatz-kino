@@ -1,6 +1,6 @@
 import "./App.css";
 import "./index.css";
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import { Header } from "./Components/Header";
 
 import { Footer } from "./Components/Footer";
@@ -13,7 +13,7 @@ import { EventPage } from "./Pages/EventPage";
 function App() {
   return (
     <div className="App bg-white ">
-      <BrowserRouter>
+      <HashRouter>
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
@@ -22,7 +22,7 @@ function App() {
           <Route path="/event" element={<EventPage />}></Route>
         </Routes>
         <Footer />
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }

@@ -8,10 +8,10 @@ import { Link } from "react-router-dom";
 
 export const Header = () => {
   const menuItems = [
-    { label: "Programme", href: "/" },
-    { label: "Events", href: "/" },
-    { label: "About us", href: "/" },
-    { label: "Contact", href: "/" },
+    { label: "Programme", href: "/programme" },
+    { label: "Events", href: "/event" },
+    { label: "About us", href: "/aboutus" },
+    { label: "Contact", href: "/contact" },
   ];
   const [isMenuOpen] = useState(true);
   return (

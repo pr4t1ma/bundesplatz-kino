@@ -5,9 +5,9 @@ import { Header } from "./Components/Header";
 
 import { Footer } from "./Components/Footer";
 
-import { HomePage } from "./Pages/Homepage";
+import { HomePage } from "./Pages/HomePage";
 import { BookingPage } from "./Pages/BookingPage";
-import { TodaysShow } from "./Pages/TodaysShow";
+import { Programme } from "./Pages/Programme";
 import { EventPage } from "./Pages/EventPage";
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />}></Route>
           <Route path="/booking" element={<BookingPage />}></Route>
-          <Route path="/todaysshow" element={<TodaysShow />}></Route>
+          <Route path="/programme" element={<Programme />}></Route>
           <Route path="/event" element={<EventPage />}></Route>
         </Routes>
         <Footer />

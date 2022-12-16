@@ -3,8 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const HeroBanner = () => {
   return (
-    <div className="p-10 relative z-10 grid grid-cols-12 grid-rows-3 gap-5 ">
-      <div className="wrapper col-span-6 row-span-2 bg-black/25 p-10 text-White">
+    <div className="p-10 relative z-10 grid grid-cols-12 grid-rows-3 gap-5 h-[50vh] ">
+      <div className="overlay absolute bottom-2 left-2 col-span-6 row-span-2 bg-black/25 p-10 text-White min-w-[50%] ">
         <div className="banner-title text-white text-4xl font-serif">
           Brave Girl
         </div>

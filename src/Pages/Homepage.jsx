@@ -1,7 +1,7 @@
 import { Banner } from "../Components/Banner";
 import { CurrenrtshowMini } from "../Components/CurrentshowMini";
 import { EventMini } from "../Components/EventMini";
-
+//.
 export const HomePage = () => {
   return (
     <div className="container mx-auto">

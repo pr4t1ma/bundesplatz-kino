@@ -6,7 +6,7 @@ import { Header } from "./Components/Header";
 import { Footer } from "./Components/Footer";
 
 import { BookingPage } from "./Pages/BookingPage";
-import { HomePage } from "./Pages/HomePage";
+import { HomePage } from "./Pages/TodaysShows";
 import { Programme } from "./Pages/Programme";
 import { EventPage } from "./Pages/EventPage";
 

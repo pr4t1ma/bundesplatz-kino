@@ -9,6 +9,8 @@ import { BookingPage } from "./Pages/BookingPage";
 import { HomePage } from "./Pages/TodaysShows";
 import { Programme } from "./Pages/Programme";
 import { EventPage } from "./Pages/EventPage";
+import { Aboutus } from "./Pages/Aboutus";
+import { Contact } from "./Pages/Contact";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/booking" element={<BookingPage />}></Route>
           <Route path="/programme" element={<Programme />}></Route>
           <Route path="/event" element={<EventPage />}></Route>
+          <Route path="/aboutus" element={<Aboutus />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
         </Routes>
         <Footer />
       </HashRouter>

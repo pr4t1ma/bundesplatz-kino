@@ -7,7 +7,7 @@ export const HomePage = () => {
     <div className="container mx-auto">
       <Banner img="http://passage-kinos.de/assets/components/phpthumbof/cache/DasLebenEinTanz_006.32a1639b317698fbb7772cba007210ea.jpg" />
       <div>
-        <h1 className="mb-5">Todays show</h1>
+        <h1 className="mt-20">Todays show</h1>
         <CurrenrtshowMini
           time="9:00"
           img="https://resizing.flixster.com/2KJzu2ywkjxg7buSN5ZRdOro10E=/300x300/v2/https://flxt.tmsimg.com/assets/p11988714_d_v9_aa.jpg"

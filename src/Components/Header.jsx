@@ -10,7 +10,7 @@ export const Header = () => {
   const menuItems = [
     { label: "Programme", href: "/programme" },
     { label: "Events", href: "/event" },
-    { label: "About us", href: "/aboutus" },
+    { label: "Aboutus", href: "/aboutUs" },
     { label: "Contact", href: "/contact" },
   ];
   const [isMenuOpen] = useState(true);

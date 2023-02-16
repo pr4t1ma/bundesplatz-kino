@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export const CurrenrtshowMini = ({ time, img, title, text }) => {
   return (
-    <div className="container mx-auto mb-5">
+    <div className="container mx-auto my-10">
       <div className="grid grid-cols-12  gap-3 bg-gray-100 ">
         <div className="time col col-span-1 border-yellow-500 border-l-4 flex gap-3 items-center pl-3 ">
           <FontAwesomeIcon icon={faClock} />

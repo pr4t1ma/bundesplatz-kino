@@ -12,8 +12,10 @@ module.exports = {
       indigo: colors.indigo,
       yellow: colors.yellow,
       red: colors.red,
+      transparent: colors.transparent,
       brand: {
-        primary: "#FFAD0D",
+        primary:"#FBB80E",
+        dark: "#FFAD0D",
         medgray: "#ECEAEA",
         lightgray: "#EEEEEE",
         gray: "#D9D9D9",

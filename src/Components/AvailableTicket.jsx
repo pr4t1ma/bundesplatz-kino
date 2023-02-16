@@ -25,7 +25,7 @@ export const AvailableTicket = () => {
           <button
             onClick={() => setSelectedDay(idx)}
             className={classNames(
-              " text-white px-6 py-3",
+              " text-white px-4 py-3",
               selectedDay === idx ? "bg-brand-primary" : "bg-gray-500"
             )}
           >

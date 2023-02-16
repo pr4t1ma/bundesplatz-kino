@@ -37,7 +37,9 @@ export const Header = () => {
       </div>
 
       <div className="col-span-2">
-        <button className="button--secondary-dark">Buchung</button>
+        <a href="#/booking">
+          <button className="button--secondary-dark">Buchung</button>
+        </a>
       </div>
     </header>
   );

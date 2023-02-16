@@ -28,8 +28,9 @@ export const CurrenrtshowMini = ({ time, img, title, text }) => {
             <FontAwesomeIcon className="mr-2" icon={faPlay} />
             Trailer
           </button>
-
-          <button className="button--secondary-dark ">Book</button>
+          <a href="#/booking">
+            <button className="button--secondary-dark ">Book</button>
+          </a>
         </div>
       </div>
     </div>
